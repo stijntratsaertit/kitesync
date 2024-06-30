@@ -1,0 +1,11 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "app"
+path = "./src/server/main.rs"
+
+[dependencies]
+rocket = "0.5.1"
